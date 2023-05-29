@@ -112,11 +112,12 @@
     </div>
 </section>
 
+<?php if(get_bookmarks( 'title_li=&categorize=0&before=&after=' )) { ?>
 <section class="links mobile_none">
     <div class="container">
         <span>友情链接：</span>
         <?php wp_list_bookmarks( 'title_li=&categorize=0&before=&after=' ); ?>
     </div>
 </section>
-
+<?php } ?>
 <?php get_footer(); ?>
