@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<?php if (get_theme_mod('ds_ban_show')) { ?>
 <section class="index_banner">
     <div class="container">
         <div class="row g-3">
@@ -93,6 +94,7 @@
         </div>
     </div>
 </section>
+<?php } ?>
 
 <section class="index_area">
     <div class="container">

@@ -155,6 +155,18 @@ $wp_customize->add_control( 'ds_highlight', array(
 
 
 ////////////////////////////////////////////////////////one setting
+$wp_customize->add_setting('ds_ban_show', array(
+    'default'		=> '',
+    'transport'		=> 'refresh', //默认值refresh
+));
+$wp_customize->add_control( 'ds_ban_show', array(
+    'label'			=> '开启轮播图',
+    'section'		=> 'ds_setting_index',
+    'type'			=> 'checkbox',
+    'description'	=> '勾选后，首页将显示轮播图',
+));
+
+////////////////////////////////////////////////////////one setting
 $wp_customize->add_setting('ds_ban_c', array(
 	'default'		=> '',
 	'transport'		=> 'refresh', //默认值refresh
