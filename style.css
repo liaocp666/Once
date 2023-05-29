@@ -94,7 +94,7 @@ img{border:0;max-width:100%;height:auto;}
 .dark .post_related_list a{color:#c9c9c9;}
 .dark .author_show_box{background:#2a2a2b;}
 .dark .author_post{border-top:1px solid #2d2d2d;}
-.header{background:#fff;width:100%;z-index:10;padding:16px 0px;margin-bottom:1.5rem;box-shadow:0px 1px 20px 12px #0808080f;}
+.header{background:#fff;width:100%;z-index:10;padding:16px 0px;margin-bottom:1.5rem;}
 .top{display:flex;justify-content:space-between;align-items:center;}
 .top .top_l{display:flex;align-items:center;}
 .top .top_l .logo{margin-bottom:0px;font-size:20px;margin-right:25px;}
