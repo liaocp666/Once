@@ -17,7 +17,7 @@ class huitheme_hot_posts extends WP_Widget {
 
         echo '<ul class="widget_hot_post">';
 
-        query_posts('posts_per_page='.$limit.'&orderby=comment_count&order=desc&ignore_sticky_posts=1'); while (have_posts()) : the_post();  ?>
+        query_posts('posts_per_page='.$limit.'&orderby=comment_count date&order=desc&ignore_sticky_posts=1'); while (have_posts()) : the_post();  ?>
 
         <li class="widget_hot_li">
             <?php
