@@ -21,10 +21,11 @@
 <?php include('inc/seo.php') ?>
 <?php wp_head(); ?>
 <?php echo get_theme_mod('ds_header'); ?>
+<style>@font-face{font-family:'HONORSans';src:url(<?php echo get_theme_root_uri() . '/assets/HONORSans.woff2' ?>) format("woff2");font-weight:400;font-style:normal;font-display:swap}</style>
 </head>
 <body <?php body_class(); ?> >
 <?php if( get_theme_mod('ds_background') ): ?>
-<style>:root{--ds_background:url(<?php echo get_theme_mod('ds_background'); ?>)}@font-face{font-family:'HONORSans';src:url(<?php echo get_theme_root_uri() . '/assets/HONORSans.woff2' ?>) format("woff2");font-weight:400;font-style:normal;font-display:swap}</style>
+<style>:root{--ds_background:url(<?php echo get_theme_mod('ds_background'); ?>)}</style>
 <?php endif; ?>
 <header class="header <?php if ( get_theme_mod('ds_sticky_top') ) { echo 'sticky-top'; } ?>">
     <div class="container">
