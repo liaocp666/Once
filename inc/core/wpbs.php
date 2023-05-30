@@ -56,7 +56,7 @@ remove_action('wp_head', 'rest_output_link_wp_head', 10 );
 remove_action('template_redirect', 'rest_output_link_header', 11 );
 
 //WordPress 移除头部 global-styles-inline-css
-add_action('wp_enqueue_scripts', 'fanly_remove_global_styles_inline');
+// add_action('wp_enqueue_scripts', 'fanly_remove_global_styles_inline');
 function fanly_remove_global_styles_inline(){
 	wp_deregister_style( 'global-styles' );
 	wp_dequeue_style( 'global-styles' );
