@@ -19,11 +19,11 @@ require get_template_directory(). '/inc/core/picalt.php';
 require get_template_directory(). '/inc/core/pingback.php';
 
 //移除古腾堡样式
-require get_template_directory(). '/inc/core/remove_block.php';
+// require get_template_directory(). '/inc/core/remove_block.php';
 
 //去除wp的标识信息
 require get_template_directory(). '/inc/core/wpbs.php';
 
 //清理仪表盘无用功能
-require get_template_directory(). '/inc/core/ybpql.php';
+// require get_template_directory(). '/inc/core/ybpql.php';
 
