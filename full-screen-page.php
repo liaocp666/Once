@@ -15,6 +15,13 @@
                     </article>
                     <?php endwhile; ?>
                 </div>
+                <div class="post_comment" id="post_comment_anchor">
+					<?php
+					if ( comments_open() || get_comments_number() ) :
+					    comments_template();
+					endif;
+					?>
+				</div>
             </div>
         </div>
     </div>
