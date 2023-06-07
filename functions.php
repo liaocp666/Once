@@ -23,3 +23,9 @@ register_nav_menus(
 
 //小工具
 require get_template_directory(). '/inc/widget.php';
+
+// WordPress设置文章自动保存间隔120秒
+define('AUTOSAVE_INTERVAL', 120);
+
+// WordPress设置文章修订版本最多允许3个
+define('WP_POST_REVISIONS', 3);
