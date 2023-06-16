@@ -1,12 +1,4 @@
 <!doctype html>
-<script>
-  const isDark= localStorage.getItem("isDarkMode");
-  if(isDark==="1"){
-    document.documentElement.classList.add('dark');
-  }else{
-    document.documentElement.classList.remove('dark');
-  }
-</script>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
@@ -21,6 +13,14 @@
 <?php include('inc/seo.php') ?>
 <?php wp_head(); ?>
 <?php echo get_theme_mod('ds_header'); ?>
+<script>
+  const isDark= localStorage.getItem("isDarkMode");
+  if(isDark==="1"){
+    document.documentElement.classList.add('dark');
+  }else{
+    document.documentElement.classList.remove('dark');
+  }
+</script>
 </head>
 <body <?php body_class(); ?> >
 <?php if( get_theme_mod('ds_background') ): ?>
