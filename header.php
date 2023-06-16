@@ -21,7 +21,6 @@
 <?php include('inc/seo.php') ?>
 <?php wp_head(); ?>
 <?php echo get_theme_mod('ds_header'); ?>
-<style>@font-face{font-family:'HONORSans';src:url(<?php echo get_stylesheet_directory_uri() . '/assets/HONORSans.woff2' ?>) format("woff2");font-weight:400;font-style:normal;font-display:swap}</style>
 </head>
 <body <?php body_class(); ?> >
 <?php if( get_theme_mod('ds_background') ): ?>

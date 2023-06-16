@@ -7,7 +7,7 @@ Author URI: http://www.huitheme.com
 Version: 1.6.202301041836
 */
 @charset "UTF-8";
-body{font-family:'HONORSans',-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;color:#333;font-size:14px;background-color:#f7f7f7;background-image:var(--ds_background);background-attachment:fixed;}
+body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;color:#333;font-size:14px;background-color:#f7f7f7;background-image:var(--ds_background);background-attachment:fixed;}
 p{margin-top:0;margin-bottom:10px;}
 ol,
 ul,
