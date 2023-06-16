@@ -2,15 +2,15 @@
 
 //加载css及js
 function dsjs_add_scripts(){
-wp_register_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
+wp_register_style( 'bootstrap', 'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/bootstrap/5.1.3/css/bootstrap.min.css' );
 wp_enqueue_style( 'bootstrap' );
-wp_register_style( 'bifont', get_template_directory_uri() . '/assets/bifont/bootstrap-icons.css' );
+wp_register_style( 'bifont', 'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css' );
 wp_enqueue_style( 'bifont' );
 wp_register_style( 'stylecss', get_template_directory_uri() . '/style.css' );
 wp_enqueue_style( 'stylecss' );
-wp_register_script( 'jquery-min', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), '', false ); //false就在页头显示
+wp_register_script( 'jquery-min', 'https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js', array(), '', false ); //false就在页头显示
 wp_enqueue_script( 'jquery-min' );
-wp_register_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), '', true );
+wp_register_script( 'bootstrap', 'https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-y/bootstrap/5.1.3/js/bootstrap.min.js', array(), '', true );
 wp_enqueue_script( 'bootstrap' );
 wp_register_script( 'dsjs', get_template_directory_uri() . '/assets/js/js.js', array(), '', true );
 wp_enqueue_script( 'dsjs' );
